@@ -1,0 +1,23 @@
+{
+  "name": "qrconverter",
+  "version": "0.0.1",
+  "description": "A tool that converts the \"string\" values you enter into QR codes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lumen142/QRConverter.git"
+  },
+  "author": "Lumen142",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lumen142/QRConverter/issues"
+  },
+  "homepage": "https://github.com/Lumen142/QRConverter#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

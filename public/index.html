@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QR Converter</h1>
+    <form id="qrForm" action="/generate" method="POST">
+      <input type="text" name="text" placeholder="Metin veya URL girin" required>
+      <button type="submit">QR Oluştur</button>
+    </form>
+    <div class="qr" id="qrResult">
+      <!-- Backend buraya QR kodu <img> olarak basabilir -->
+    </div>
+  </div>
+</body>
+</html>
