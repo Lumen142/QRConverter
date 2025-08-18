@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Lumen142/QRConverter#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
   }
 }

@@ -9,13 +9,15 @@
 <body>
   <div class="container">
     <h1>QR Converter</h1>
-    <form id="qrForm" action="/generate" method="POST">
-      <input type="text" name="text" placeholder="Metin veya URL girin" required>
-      <button type="submit">QR Oluştur</button>
-    </form>
+    <input type="text" name="text" id="textbox" placeholder="Metin veya URL girin" required>
+    <button type="submit", id="sub1">QR Oluştur</button>
     <div class="qr" id="qrResult">
+      <img src="" alt="" id="qrimg">
       <!-- Backend buraya QR kodu <img> olarak basabilir -->
     </div>
   </div>
+
+  <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>
